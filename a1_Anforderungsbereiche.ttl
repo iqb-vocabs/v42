@@ -2,23 +2,22 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v42/a1/>. 
-@prefix n1: <https://w3id.org/iqb/v42/a1/>. 
 
-n1:c9r
+n0:c9r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich I"@de; 
 	skos:definition "umfasst das Wiedergeben von Sachverhalten und Kenntnissen im gelernten Zusammenhang sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren"@de.
-n1:e4c
+n0:e4c
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich II"@de; 
 	skos:definition "umfasst das selbstständige Auswählen, Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Gelernten auf vergleichbare neue Zusammenhänge und Sachverhalte."@de.
-n1:a4e
+n0:a4e
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
@@ -31,6 +30,6 @@ n0:
 	dct:title "Bildungsstandards Chemie Sek II 2020 - Anforderungsbereiche"@de;
 	dct:description "Mit Blick auf die unterrichtliche Einbindung von Aufgaben werden folgende Anforderungsbereiche unterschieden:"@de;
 	skos:hasTopConcept
-		n1:c9r,
-		n1:e4c,
-		n1:a4e.
+		n0:c9r,
+		n0:e4c,
+		n0:a4e.
